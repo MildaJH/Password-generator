@@ -248,8 +248,9 @@ function main() {
 
       securePassword = document.getElementById('password').placeholder = generatedPassword;
 
+  //Password does not meet the requirements  
     } else {
-      alert("You need to choose at least 2 types of characters for more password diversity");
+      alert("You need to choose at least 2 types of characters for better password");
       return;
     }
   } else {
